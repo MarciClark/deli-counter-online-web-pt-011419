@@ -3,7 +3,7 @@ katz_deli = []
 def customers(katz_deli)
   if katz_deli.length > 0
     puts "The line is currently empty"
-    katz_deli.each 
+    katz_deli.each do |
 end
 
 customers = ["Ada", "Grace", "Kent"]

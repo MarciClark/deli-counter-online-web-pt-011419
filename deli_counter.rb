@@ -4,7 +4,7 @@ def customers(katz_deli)
   if katz_deli.length > 0
     phrase = "The line is currently empty"
     katz_deli.each do |name, index
-    phrase += "#{index + 1}"
+    phrase += "#{index + 1}."
 end
 
 customers = ["Ada", "Grace", "Kent"]

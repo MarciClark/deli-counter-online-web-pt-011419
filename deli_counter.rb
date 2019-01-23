@@ -15,7 +15,7 @@ def now_serving(katz_deli)
   if katz_deli == 0
     puts "There is nobody waiting to be served!"
   else 
-  puts "currently serving " + katz_deli[0] + "."
+  puts "now serving " + katz_deli[0] + "."
 end
 
 take_a_number(katz_deli, "Ada")

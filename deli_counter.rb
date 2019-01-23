@@ -23,7 +23,7 @@ take_a_number(katz_deli, "Grace")
 take_a_number(katz_deli, "Kent")
 customers(katz_deli)
 now_serving(katz_deli)
-line(katz_deli)
+customers(katz_deli)
 end
 end
   

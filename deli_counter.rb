@@ -3,7 +3,7 @@ katz_deli = []
 def customers(katz_deli)
   if katz_deli.length > 0
     phrase = "The line is currently empty"
-    katz_deli.each do |name, index
+    katz_deli.each do |name, index|
     phrase += "#{index + 1}.#{name}"
 end
 

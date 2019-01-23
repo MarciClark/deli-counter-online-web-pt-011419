@@ -1,9 +1,8 @@
 katz_deli = []
 
 def customers(katz_deli)
-  puts "The line is currently empty" 
   if katz_deli.length > 0
-    
+    puts "The line is currently empty"
 end
 
 customers = ["Ada", "Grace", "Kent"]

@@ -18,6 +18,7 @@ def now_serving(katz_deli)
   puts "currently serving " + katz_deli[0] + "."
 end
 
+take_a_number(katz_deli, "Ada")
 
 
   
